@@ -34,6 +34,8 @@ let g:which_key_map['T'] = [ ':Rg'                        , 'search text' ]
 let g:which_key_map['v'] = [ '<C-W>v'                     , 'split right']
 let g:which_key_map['z'] = [ 'Goyo'                       , 'zen' ]
 let g:which_key_map['m'] = [ ':MarkdownPreview'           , 'MarkDown preview' ]
+let g:which_key_map['w'] = [ ':w'                         , 'save file' ]
+let g:which_key_map['.'] = [ ':wq'           , 'save and quit' ]
 
 " s is for search
 let g:which_key_map['s'] = {
@@ -66,17 +68,17 @@ let g:which_key_map['s'] = {
 
 let g:which_key_map['t'] = {
       \ 'name' : '+terminal' ,
-      \ ';' : [':FloatermNew --wintype=popup --height=6'        , 'terminal'],
-      \ 'f' : [':FloatermNew fzf'                               , 'fzf'],
-      \ 'g' : [':FloatermNew lazygit'                           , 'git'],
-      \ 'd' : [':FloatermNew lazydocker'                        , 'docker'],
-      \ 'n' : [':FloatermNew node'                              , 'node'],
-      \ 'N' : [':FloatermNew nnn'                               , 'nnn'],
-      \ 'p' : [':FloatermNew python'                            , 'python'],
-      \ 'r' : [':FloatermNew ranger'                            , 'ranger'],
-      \ 't' : [':FloatermToggle'                                , 'toggle'],
-      \ 'y' : [':FloatermNew ytop'                              , 'ytop'],
-      \ 's' : [':FloatermNew ncdu'                              , 'ncdu'],
+      \ ';' : [':FloatermNew              --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                              , 'terminal'],
+      \ 'f' : [':FloatermNew fzf          --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                   , 'fzf'],
+      \ 'g' : [':FloatermNew lazygit      --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                   , 'git'],
+      \ 'd' : [':FloatermNew lazydocker   --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                , 'docker'],
+      \ 'n' : [':FloatermNew node         --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                  , 'node'],
+      \ 'N' : [':FloatermNew nnn          --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                   , 'nnn'],
+      \ 'p' : [':FloatermNew python       --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                , 'python'],
+      \ 'r' : [':FloatermNew ranger       --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                , 'ranger'],
+      \ 't' : [':FloatermToggle           --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                , 'toggle'],
+      \ 'y' : [':FloatermNew bpytop       --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                , 'bpytop'],
+      \ 's' : [':FloatermNew ncdu         --wintype=popup --height=0.9 --width=0.8 --autoclose=2'                                  , 'ncdu'],
       \ }
 
 " Register which key map
