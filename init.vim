@@ -38,12 +38,14 @@ Plug 'davidgranstrom/nvim-markdown-preview'
 call plug#end()
 
 " eol:¬
+"
+"space:·
 :set listchars=tab:>·,trail:~,extends:>,precedes:<,space:·
 :set list
 
 " Neovide
 " set guifont=agave\ Nerd\ font:18
-let g:neovide_transparency=0.5
+let g:neovide_transparency=0.9
 let g:neovide_refresh_rate=75
 let g:neovide_cursor_vfx_mode = "torpedo"
 "let g:neovide_cursor_vfx_opacity=500.0
@@ -58,6 +60,7 @@ source ~/.config/nvim/main/plugs/which-key.vim
 source ~/.config/nvim/main/plugs/coc.nvim
 source ~/.config/nvim/main/plugs/floaterm.vim
 source ~/.config/nvim/main/plugs/ranger.vim
+source ~/.config/nvim/main/plugs/start-screen.vim
 source ~/.config/nvim/main/plugs/markdownPreview.vim
 
 colorscheme molokayo

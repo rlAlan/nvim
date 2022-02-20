@@ -13,5 +13,12 @@
   "explorer.keyMappings.global": {
     "<cr>": ["expandable?", "expand", "open"],
     "v": "open:vsplit"
-  }
+  },
+  //"languageserver": {
+  //"bash": {
+  //  "command": "bash-language-server",
+  //  "args": ["start"],
+  //  "filetypes": ["sh", "bash"]
+  //}
+}
 }
